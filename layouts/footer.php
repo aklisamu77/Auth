@@ -237,12 +237,12 @@ $.ajax({
         success: function (data) {
           if (data.stat == 'error')
               alert(data.msg);
-          else (data.stat == 'success')
-              location.reload();
-
+          else if (data.stat == 'success'){
+             // location.reload();
+}
         }
 });
-
+jQuery(this).parents('.profile-sidebar').fadeOut(1000);
 });
 
 jQuery('.remove-cat').click(function(){
@@ -259,7 +259,7 @@ $.ajax({
         success: function (data) {
           if (data.stat == 'error')
               alert(data.msg);
-          else (data.stat == 'success')
+          else if (data.stat == 'success')
               location.reload();
 
         }
