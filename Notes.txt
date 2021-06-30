@@ -1,0 +1,19 @@
+new site		T 
+new db 			T
+
+pages 			T
+
+login 			...
+
+
+
+upload 			T
+
+id 
+email
+name
+password
+mobile
+role
+created_at
+created_by

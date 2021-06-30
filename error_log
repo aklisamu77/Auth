@@ -1,0 +1,10 @@
+[29-Jun-2021 06:49:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method User::getID() in /home4/proleaders/lms.proonline.academy/Auth/classes/DB.php:15
+Stack trace:
+#0 /home4/proleaders/lms.proonline.academy/Auth/demo.php(11): DB::Delete(Object(User))
+#1 {main}
+  thrown in /home4/proleaders/lms.proonline.academy/Auth/classes/DB.php on line 15
+[29-Jun-2021 07:06:50 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot access private property User::$role in /home4/proleaders/lms.proonline.academy/Auth/layouts/profile/add_customer.php:18
+Stack trace:
+#0 /home4/proleaders/lms.proonline.academy/Auth/profile.php(77): include()
+#1 {main}
+  thrown in /home4/proleaders/lms.proonline.academy/Auth/layouts/profile/add_customer.php on line 18
